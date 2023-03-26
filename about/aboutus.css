@@ -62,11 +62,11 @@ main {
   background-color: #fae9dd;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .main {
     grid-template-columns: 1fr;
   }
-  
+
   .gallery {
     grid-template-columns: 1fr 1fr;
   }

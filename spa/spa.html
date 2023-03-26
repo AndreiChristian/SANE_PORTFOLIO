@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="../shared/shared.css" />
 
     <script defer src="script.js"></script>
+    <script defer src="../script.js"></script>
 
     <title>Riverstone Wellness Lodge</title>
   </head>
@@ -46,7 +47,7 @@
             <a class="main-nav-link" href="../treatment/treatment.html">Massagges
               & treatments</a>
           </li>
-          <li><a class="main-nav-link" href="#cta">Contact us</a></li>
+          <li><a class="main-nav-link" href="../#cta">Contact us</a></li>
         </ul>
       </nav>
 
@@ -57,6 +58,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
+          id="openNavBtn"
           class="icon-mobile-nav">
           <path
             stroke-linecap="round"
@@ -71,7 +73,8 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="close-mobile-nav">
+            id="closeNavBtn"
+            class="icon-mobile-nav close-mobile-nav">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -80,6 +83,17 @@
             </svg>
           </button>
         </header>
+
+        <!-- side navigation -->
+
+        <div id="sideNav" class="side-nav">
+          <!-- Side navigation content -->
+          <a class="main-nav-link" href="../about/aboutus.html">About us</a>
+          <a class="main-nav-link" href="../spa/spa.html">Spa circuit</a>
+          <a class="main-nav-link" href="../treatment/treatment.html">Massagges
+            & treatments</a>
+          <a class="main-nav-link" href="#cta">Contact us</a>
+        </div>
 
         <!-- main-section -->
         <!-- main-section -->
@@ -227,7 +241,8 @@
               <div class="footer-container-logo">
                 <div class="logo-col">
                   <a href="#" class="footer-logo">
-                    <img class="logo" alt="Riverstone logo" src="../img/logo.png"
+                    <img class="logo" alt="Riverstone logo"
+                      src="../img/logo.png"
                       />
                   </a>
                   <adress class="footer-adress">
