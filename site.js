@@ -1,7 +1,7 @@
-gsap.to("p", {
-  duration: 3,
-  ease: "power1.in",
-  repeat: 10,
-  yoyo: true,
-  repeatDelay: 0.4,
+const btnNav = document.querySelector(".btn-mobile-nav");
+
+const header = document.querySelector(".header");
+
+btnNav.addEventListener("click", function () {
+  header.classList.toggle("nav-open");
 });
