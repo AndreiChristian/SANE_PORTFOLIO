@@ -12,10 +12,6 @@
   position: relative;
 }
 
-.header * {
-  outline: 2px solid red;
-}
-
 .logo {
   height: 6rem;
   border-radius: 2.5rem;
@@ -46,6 +42,40 @@
 
 /*MOBILE NAV*/
 
+/* Side navigation styles */
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.side-nav a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 30px !important;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.side-nav a:hover {
+  color: #2e5c52;
+  border-bottom: 3px solid #2e5c52;
+}
+
+
+
+/* Mobile nav buttons */
+
 .btn-mobile-nav {
   border: none;
   background: none;
@@ -59,7 +89,7 @@
   color: #333;
 }
 
-.close-mobile-nav{
+.close-mobile-nav {
   display: none;
 }
 
