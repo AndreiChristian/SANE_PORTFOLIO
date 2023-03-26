@@ -1,9 +1,13 @@
+main {
+  max-width: 100vw;
+  overflow: hidden !important;
+}
 
 .main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* background-color: #fae9dd; */
   align-items: center;
+  place-content: center;
   padding-bottom: 9.6rem;
 }
 
@@ -14,15 +18,15 @@
   font-weight: 600;
   color: #333;
   letter-spacing: -0.5px;
-  padding: 6rem;
+  padding: 0 6rem;
   padding-bottom: 02rem;
   padding-left: 18rem;
 
-  transform: translate(0, 35%);
+  /* transform: translate(0, 35%); */
 }
 
 .about-us-text {
-  padding: 9.6rem;
+  padding: 0 9.6rem;
   font-size: 2rem;
   margin-bottom: 8rem;
   line-height: 1.8;
@@ -58,3 +62,12 @@
   background-color: #fae9dd;
 }
 
+@media screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
