@@ -432,4 +432,8 @@ main {
   .spa-content-box::before {
     display: none;
   }
+
+  .hero{
+    grid-template-columns: 1fr;
+  }
 }
