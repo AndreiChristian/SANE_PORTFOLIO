@@ -1,7 +1,7 @@
-/* main *,
 main {
-  outline: 2px solid red;
-} */
+  max-width: 100%;
+  overflow: hidden;
+}
 
 /********************/
 /*HERO SECTION*/
