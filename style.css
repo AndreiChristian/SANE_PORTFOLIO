@@ -1,5 +1,7 @@
-
-/*  */
+/* main *,
+main {
+  outline: 2px solid red;
+} */
 
 /********************/
 /*HERO SECTION*/
@@ -28,8 +30,6 @@
   line-height: 1.5;
   margin-bottom: 8rem;
 }
-
-
 
 /****************/
 /*DESCRIPTION*/
@@ -405,4 +405,18 @@
 .testimonial-name {
   font-size: 1.6rem;
   color: #777;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  #responsive-container {
+    grid-template-columns: 1fr;
+  }
+
+  .spa-content-box::before {
+    display: none;
+  }
 }
