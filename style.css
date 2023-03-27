@@ -402,6 +402,15 @@ main {
   margin-bottom: 1.6rem;
 }
 
+.step-img-box{
+  margin-top: 10vh;
+}
+
+#responsive p{
+  background-color: #fae9dd;
+  padding: 2vw;
+}
+
 .testimonial-name {
   font-size: 1.6rem;
   color: #777;
@@ -413,6 +422,10 @@ main {
   }
 
   #responsive-container {
+    grid-template-columns: 1fr;
+  }
+
+  #responsive{
     grid-template-columns: 1fr;
   }
 
