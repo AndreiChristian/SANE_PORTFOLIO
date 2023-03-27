@@ -113,3 +113,31 @@
 .dot--fill {
   background-color: #c8bab1;
 }
+
+@media screen and (max-width: 750px){
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .title-section-box{
+    transform: translate(0);
+  }
+
+  .title-section{
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-section{
+    padding: 0;
+  }
+
+  .img-sauna{
+    width: 100%;
+    transform: scale(1);
+  }
+}

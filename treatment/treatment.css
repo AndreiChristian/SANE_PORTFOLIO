@@ -106,23 +106,6 @@
   stroke: #c8bab1;
 }
 
-.dots {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translate(-50%, 3.2rem);
-  display: flex;
-  gap: 1.2rem;
-}
+ 
 
-.dot {
-  height: 1.2rem;
-  width: 1.2rem;
-  background-color: #fff;
-  border: 0.2rem solid #c8bab1;
-  border-radius: 50%;
-}
 
-.dot--fill {
-  background-color: #c8bab1;
-}
