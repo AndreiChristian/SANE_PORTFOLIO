@@ -402,11 +402,11 @@ main {
   margin-bottom: 1.6rem;
 }
 
-.step-img-box{
+.step-img-box {
   margin-top: 10vh;
 }
 
-#responsive p{
+#responsive p {
   background-color: #fae9dd;
   padding: 2vw;
 }
@@ -425,7 +425,7 @@ main {
     grid-template-columns: 1fr;
   }
 
-  #responsive{
+  #responsive {
     grid-template-columns: 1fr;
   }
 
@@ -433,7 +433,7 @@ main {
     display: none;
   }
 
-  .hero{
+  .hero {
     grid-template-columns: 1fr;
   }
 }
