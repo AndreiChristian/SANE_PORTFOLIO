@@ -2,9 +2,9 @@
 /*MAIN PAGE*/
 
 .massage-img {
-  width: 24%;
+  width: 50%;
   border-radius: 1rem;
-  transform: scale(1.5);
+  transform: scale(1);
   box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.3);
 }
 
@@ -38,10 +38,15 @@
   align-items: center;
   gap: 2rem;
   position: relative;
+  justify-content: space-between;
+
 }
 
-.title-section-box {
-  transform: translate(125%, -80%);
+.inner-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .title-section {
@@ -62,7 +67,7 @@
 .price {
   font-size: 1.5rem;
   font-weight: 600;
-  transform: translate(-400%, 400%);
+  /* transform: translate(-400%, 400%); */
 }
 
 .btn-book:link,
@@ -76,7 +81,7 @@
   padding: 1rem 3rem;
   border-radius: 15px;
   transition: all 0.3s;
-  transform: translate(-110%, 320%);
+  /* transform: translate(-110%, 320%); */
 }
 
 .btn-book--full:link,
