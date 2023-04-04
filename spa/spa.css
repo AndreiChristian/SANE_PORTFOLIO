@@ -114,8 +114,8 @@
   background-color: #c8bab1;
 }
 
-@media screen and (max-width: 750px){
-  .carousel{
+@media screen and (max-width: 750px) {
+  .carousel {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,20 +123,20 @@
     padding: 2rem;
   }
 
-  .title-section-box{
+  .title-section-box {
     transform: translate(0);
   }
 
-  .title-section{
+  .title-section {
     padding: 0;
     margin: 0;
   }
 
-  .text-section{
+  .text-section {
     padding: 0;
   }
 
-  .img-sauna{
+  .img-sauna {
     width: 100%;
     transform: scale(1);
   }
