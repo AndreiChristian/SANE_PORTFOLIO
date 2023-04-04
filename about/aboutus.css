@@ -11,18 +11,21 @@ main {
   padding-bottom: 9.6rem;
 }
 
+.heading{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 5vh;
+}
+
 .heading-title {
   font-size: 4rem;
   line-height: 1.2;
-  margin-bottom: 6rem;
   font-weight: 600;
   color: #333;
   letter-spacing: -0.5px;
-  padding: 0 6rem;
-  padding-bottom: 02rem;
-  padding-left: 18rem;
+  text-align: center;
 
-  /* transform: translate(0, 35%); */
 }
 
 .about-us-text {
